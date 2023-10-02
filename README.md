@@ -1,40 +1,52 @@
+## About Laravel
 
-## Sobre Laravel
-
-Laravel es un Framework de aplicación web con una sintaxis elegante y expresiva. Creemos que el desarrollo debe ser una experiencia agradable y creativa para que sea verdaderamente satisfactorio. Laravel elimina las complicaciones del desarrollo al facilitar las tareas comunes utilizadas en muchos proyectos web, como por ejemplo:
+Laravel is a web application framework with elegant and expressive syntax. We believe that development should be an enjoyable and creative experience to be truly satisfying. Laravel takes the hassle out of development by facilitating common tasks used in many web projects, such as:
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Proyecto Screen
+## Proyect Screen
 
-Este proyecto tipo Prueba sobre el Framework de Laravel, tiene como propósito experimentar la libreria **spatie/browsershot** para la captura de imagenes dada una url, trabajando con navegadores web basadao en Chromium.
+This Test project on the Laravel Framework aims to experiment with the **spatie/browsershot** library for capturing images given a URL, working with Chromium-based web browsers.
 
-La librería **spatie/browsershot** cuenta con un repositorio en github  [spatie/browsershot](https://github.com/spatie/browsershot), en el cual la comunidad hace aportes sobre corrección de errores, documentación y amplicación de capacidades de la herramienta. 
+The **spatie/browsershot** library has a repository on github [spatie/browsershot](https://github.com/spatie/browsershot), in which the community makes contributions on bug fixes, documentation and extension of tool capabilities.
 
-Respecto al proyecto **Screen** este cuenta con una aplicación básica en donde el aspecto visual es relegado para dar paso a la prueba de las funcionalidades tales como:
-- Captura de pantalla de una pagina web a través de su url
-- Generación de nombres de imagenes basadas en su dominio.
-- Listado de capturas de pantalla almacenadas en el servidor
-- Pevisualización de capturas realizadas a través del navegador web configurado por defecto.
+Regarding the **Screen** project, it has a basic application where the visual aspect is relegated to give way to testing functionalities such as:
 
-## Instalacion
-El proyecto se instala vía composer.
+- Screenshot of a web page through its url
+- Generation of image names based on your domain.
+- List of screenshots stored on the server
+- Preview of captures made through the web browser configured by default.
+
+## Install
+The project is installed via composer.
 ````
 composer install
 ````
 
-### Cargar Archivos
+Library installation via npm in proyect.
+````
+npm install puppeteer
+````
 
-La página inicial presenta un formulario en el cual se permite el ingreso de la url.
+Library installation.
+````
+composer require spatie/browsershot in proyect
+````
 
-### Capturas realizadas
-Aqui se relacionan tados las capturas de pantalla almacenadas en el servidor, presentado de cada uno de ellos un enlace, en el cual se puede hacer click.
+### Home Page
 
-### Visualización de imagenes
+The initial page presents a form in which the url is allowed to be entered.
 
-Al hacer click en el vinculo de cada imagen, se permite visualizar la imalgen generada, dicha visualización se realiza gracias al navegador web instalada y configurado por defecto
+### Captures taken
+Here all the screenshots stored on the server are listed, presenting each of them with a link, which can be clicked.
+
+### Viewing images
+
+By clicking on the link of each image, you can view the generated image. This visualization is carried out thanks to the web browser installed and configured by default.
 
 ````
 http://localhost:8000/
 ````
 ## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
