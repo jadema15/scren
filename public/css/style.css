@@ -1,0 +1,184 @@
+body {
+    background-color: #f4f8fb;
+}
+
+.container {
+    text-align: center;
+    /* Centra horizontalmente */
+    height: 100vh;
+    /* Ocupa la altura completa de la ventana */
+}
+
+form {
+    margin: 0 auto;
+    /* Centra horizontalmente usando márgenes automáticos */
+    display: inline-block;
+    /* Evita que el formulario ocupe todo el ancho */
+    background-color: #f0f8ff;
+}
+
+.bordered-form {
+    border: 2px solid #ced4da;
+    /* Ancho, estilo y color del borde */
+    padding: 20px;
+    /* Espacio interno alrededor del formulario */
+    border-radius: 10px;
+    /* Radio de los bordes para hacerlo más redondeado */
+    width: 50%;
+    /* Ancho del formulario al 75% de la pantalla */
+    height: 50%;
+    margin: 0 auto;
+    /* Centra el formulario horizontalmente en la pantalla */
+}
+
+/* Estilo para el botón similar a Bootstrap */
+.button-bootstrap {
+    display: inline-block;
+    padding: 8px 20px;
+    /* Ajusta el padding según tu preferencia */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    background-color: #007bff;
+    /* Color de fondo azul similar a Bootstrap */
+    color: #fff;
+    /* Color del texto blanco */
+    border: none;
+    /* Borde sin estilo */
+    border-radius: 4px;
+    /* Radio del borde */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Transición suave de color de fondo */
+}
+
+/* Estilo para el botón cuando se pasa el cursor sobre él */
+.button-bootstrap:hover {
+    background-color: #0056b3;
+    /* Color de fondo azul más oscuro al pasar el cursor */
+}
+
+/* Estilo para el campo de entrada similar a Bootstrap */
+.input-bootstrap {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    /* Ajusta el padding según tu preferencia */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    border: 1px solid #ced4da;
+    /* Borde similar a Bootstrap */
+    border-radius: 4px;
+    /* Radio del borde */
+    transition: border-color 0.3s ease;
+    /* Transición suave del color del borde */
+}
+
+/* Estilo para el campo de entrada cuando se enfoca en él */
+.input-bootstrap:focus {
+    border-color: #007bff;
+    /* Color del borde al enfocarse, azul similar a Bootstrap */
+    outline: none;
+    /* Quita el contorno predeterminado al enfocarse */
+}
+
+.bordered-form {
+    display: flex;
+    /* Usar un contenedor flexible para alinear elementos en la misma fila */
+    align-items: center;
+    /* Alinear elementos verticalmente en el centro */
+    background-color: #fff;
+}
+
+.bordered-form label {
+    flex: 1;
+    /* Hace que la etiqueta ocupe todo el espacio disponible */
+    margin-right: 10px;
+    /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+/* Estilo para el campo de entrada similar a Bootstrap */
+.input-bootstrap {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.input-bootstrap:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo para el botón similar a Bootstrap */
+.button-bootstrap {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-bootstrap:hover {
+    background-color: #0056b3;
+}
+
+.label-bootstrap {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.label-title {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: #0056b3;
+}
+
+.button-bootstrap-subir {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1e972e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para la lista desordenada (ul) */
+ul.bootstrap-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista (li) */
+ul.bootstrap-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+/* Estilos para los enlaces dentro de los elementos de la lista */
+ul.bootstrap-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul.bootstrap-list li a:hover {
+    color: #0056b3;
+}

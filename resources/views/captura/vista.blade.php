@@ -1,7 +1,12 @@
-<h2>Archivos cargados</h2>
- 
-   @if(count($archivos)>0)
-      <ul>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<div class="container">
+
+<h2 class="label-title">Imágenes Capturadas</h2>
+
+<div class="bordered-form">
+ @if(count($archivos)>0)
+      <ul class="bootstrap-list">
         @foreach($archivos as $file)       
            <li>
            <a href="{{ url('files/'.$file) }}">{{ $file }}</a>
@@ -10,10 +15,14 @@
     </ul>
     @else
     <h2>No se han cargado archivos pdf en el servidor</h2>
-    @endif
-    
+    @endif    
+</div>
+ 
+  
     <div>
         <p>
-           <a href="{{ route('home') }}">Guardar Imagen</a> 
+           <a class="button-bootstrap-subir" href="{{ route('home') }}">Capturar Imagen</a> 
         </p>
     </div>
+
+</div>
